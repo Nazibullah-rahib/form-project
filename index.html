@@ -1,0 +1,80 @@
+<html>
+    <body>
+        
+    <form action="#" method="POST">
+
+        <h1 style="text-align: center;">Sign Up From</h1>
+        <hr>
+        <br>
+       
+
+
+        
+        <label for="user">Name:</label>
+        <!--label=lekha te click korle box a select hoye jabe-->
+        <input type="text" id="user"name="user" placeholder="User name"required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"name="user" placeholder="User mail" required><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass"name="user" placeholder="User password" required><br>
+
+        <label for="Phn">Phone:</label>
+        <br>
+        <select name="code">
+            <option value="+880">+880</option>
+            <option value="+990">+990</option>
+            <option value="+110">+110</option>
+        </select>
+        <input type="Phone:" id="Phn"name="user" placeholder="User Phone Number" required><br>
+
+
+        <label for="Country">Country</label>
+        <input list="con">
+
+        <datalist id="con">
+
+            <option value="Bangladesh"></option>
+            <option value="India"></option>
+            <option value="Pakistan"></option>
+            <option value="Argentina"></option>
+
+        </datalist>
+        <br>
+
+        Gender:
+        <input type="radio" id="ged1" name="gender">
+        <label for="gnd1">Male</label>
+
+        <input type="radio" id="ged2" name="gender">
+        <label for="gnd2">female</label>
+
+    <br>
+    
+    <label for="date">Date of Birth</label>
+    <input type="date" id="date" name="date"><br>
+
+    <label for ="time">Time</label>
+    <input type="time"id="time"name="time"><br>
+
+    <label for="file">Choose Photo</label>
+    <input type="file" id ="file" name="file"><br>
+
+    <input type ="checkbox" id="mny1" name="money">
+    <label for="mnty1"> I have Money</label>
+
+    <input type ="checkbox" id="mny2" name="money">
+    <label for="mny2"> I am happy</label>
+    <br>
+    <br>
+    <textarea name="Comment" cols="30" rows="5" placeholder="Comment Here"></textarea>
+    <br>
+   
+    <input type="Submit" value="Send">
+    <input type="reset" value="Reset">
+ 
+       
+</form>
+    </body>
+</html>
